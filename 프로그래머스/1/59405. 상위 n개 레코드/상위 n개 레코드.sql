@@ -8,3 +8,9 @@ from (
      ) as ranked_animals
      where ranking = 1
 ;
+
+# 아래 코드도 가능 (대신 동순위가 없을 경우)
+select name
+from animal_ins
+order by datetime
+limit 1;
