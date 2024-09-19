@@ -1,5 +1,7 @@
 class Solution {
     public long[] solution(long x, int n) {
+        // 1차 테스트 실패로, int x를 long x로 변경 
+        
         // 배열 크기는 n개 출력으로 정해져있으므로
         // 컬렉션을 안쓰고, 배열로 활용
         long[] answer = new long[n];
